@@ -1,6 +1,6 @@
 <?php
 
-namespace Skydiver\LaravelMaterializeCSS;
+namespace Alpharaver\LaravelMaterializeCSS;
 
 class MaterializeCSSBuilder {
 

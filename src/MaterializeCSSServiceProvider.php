@@ -1,6 +1,6 @@
 <?php
 
-namespace Skydiver\LaravelMaterializeCSS;
+namespace Alpharaver\LaravelMaterializeCSS;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,7 +13,7 @@ class MaterializeCSSServiceProvider extends ServiceProvider {
             __DIR__.'/../assets' => public_path('materialize-css'),
         ], 'materializecss');
         $this->registerMaterializeCSSBuilder();
-        $this->app->alias('materialize-css', 'Skydiver\LaravelMaterializeCSS\MaterializeCSSBuilder');
+        $this->app->alias('materialize-css', 'Alpharaver\LaravelMaterializeCSS\MaterializeCSSBuilder');
     }
 
     protected function registerMaterializeCSSBuilder() {

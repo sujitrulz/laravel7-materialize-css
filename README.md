@@ -1,5 +1,5 @@
 # laravel-materialize-css
-Materialize CSS Framework for Laravel 5 [http://materializecss.com/]
+Materialize CSS Framework for Laravel 7 [http://materializecss.com/]
 
 
 
@@ -7,24 +7,23 @@ Materialize CSS Framework for Laravel 5 [http://materializecss.com/]
 
 * Require this package in your composer.json and run composer update.
 ```
-    "skydiver/laravel-materialize-css": "dev-master"
+    "alpharaver/laravel7-materialize-css": "dev-master"
 ```
 
 * After updating composer, add ServiceProvider to the providers array in config/app.php
 ```php
-    Skydiver\LaravelMaterializeCSS\MaterializeCSSServiceProvider::class,
+    Alpharaver\LaravelMaterializeCSS\MaterializeCSSServiceProvider::class,
 ```
 
 * Add Facade to the aliases array in config/app.php
 ```php
-	'MaterializeCSS' => Skydiver\LaravelMaterializeCSS\MaterializeCSS::class,
+	'MaterializeCSS' => Alpharaver\LaravelMaterializeCSS\MaterializeCSS::class,
 ```
 
 *  Then publish the package's assets to public folder:
 ```
     $ php artisan vendor:publish --tag=materializecss --force
 ```
-
 
 
 ## Updates
