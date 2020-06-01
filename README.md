@@ -1,6 +1,5 @@
-# laravel-materialize-css
+# laravel7-materialize-css
 Materialize CSS Framework for Laravel 7 [http://materializecss.com/]
-
 
 
 ## Installation
