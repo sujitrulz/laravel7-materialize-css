@@ -9,16 +9,6 @@ Materialize CSS Framework for Laravel 7 [http://materializecss.com/]
     "alpharaver/laravel7-materialize-css": "dev-master"
 ```
 
-* After updating composer, add ServiceProvider to the providers array in config/app.php
-```php
-    Alpharaver\LaravelMaterializeCSS\MaterializeCSSServiceProvider::class,
-```
-
-* Add Facade to the aliases array in config/app.php
-```php
-	'MaterializeCSS' => Alpharaver\LaravelMaterializeCSS\MaterializeCSS::class,
-```
-
 *  Then publish the package's assets to public folder:
 ```
     $ php artisan vendor:publish --tag=materializecss --force
