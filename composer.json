@@ -1,0 +1,22 @@
+{
+    "name": "alpha-raver/laravel-materialized",
+    "description": "Add Materialize CSS Framework to Laravel 7",
+    "keywords": ["Materialize", "CSS", "Material Design", "laravel", "CSS Framework"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2.5",
+        "illuminate/support": "7.*"
+    },
+    "authors": [
+        {
+            "name": "Alpha Raver",
+            "email": "iamalpharaver@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Alpharaver\\LaravelMaterialized\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
